@@ -1,0 +1,63 @@
+/**
+ * 
+ */
+package com.pearl.hbmsn.en.info;
+
+/**
+ * @author Pearl_Note
+ *
+ */
+public enum InfoType {
+    None,
+    Header,
+    Result,
+    Home,
+    User,
+    UserList,
+    UserDetail,
+    Room,
+    RoomList,
+    RoomDetail,
+    String,
+    Voice,
+    Video,
+    Present,
+    Give,
+    Game,
+    GameList,
+    GameDetail,
+    ChatHistory,
+    ChatHistoryList,
+    ChargeHistory,
+    EvalHistory,
+    PointHistory,
+    PresentHistory,
+    GameHistory,
+    AskChat,
+    Board,
+    Paper,
+    Betting,
+    Table,
+    Sicbo,
+    Dice, 
+    DzCard,
+    Horse,
+    BumperCar,
+    Fish,
+    AddScore,
+    SendCard,
+    Musice,
+    MusiceState,
+    ClassInfo,
+    ClassList,
+    ClassTypeInfo,
+    ClassTypeList,
+    ClassPictureDetail,
+    RoomValue,
+    Payment,
+    FishSend,
+    DWGameFile,
+    UserState,
+    Server,
+    AVMsg,
+}

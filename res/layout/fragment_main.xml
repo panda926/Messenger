@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffffff"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp"
+            android:background="#ffffffff"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/selected_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffffff"
+                android:text="@string/title_connectors"
+                android:textSize="25sp"
+             />
+        </LinearLayout>
+		<View
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:background="@color/color_line"
+         />
+        <LinearLayout
+            android:id="@+id/ll_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+             android:orientation="vertical"/>
+
+        <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:background="@color/color_line"
+         />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffffff"
+            android:orientation="horizontal" >
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:layout_weight="1"
+			    >
+			     <ImageButton
+                android:id="@+id/bt_ConnectorsFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffffff"
+                android:src="@drawable/connectors_selected"
+                />
+			    <TextView 
+			        android:id="@+id/tv_ConnectorsFragment"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="@string/title_connectors"
+			        android:textSize="12sp"
+			        android:textColor="@color/color_text_blue"
+			        />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:layout_weight="1"
+			    >
+			    <ImageButton
+                android:id="@+id/bt_PhotoFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffffff"
+                android:src="@drawable/photo_deselected"
+               />
+			   <TextView 
+			        android:id="@+id/tv_PhotoFragment"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="@string/title_photos"
+			        android:textSize="12sp"
+			        android:textColor="@color/color_text"
+			        />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:layout_weight="1"
+			    >
+			    <ImageButton
+                android:id="@+id/bt_NewsFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                
+                android:background="#ffffffff"
+                android:src="@drawable/news_deselected"
+                />
+			    <TextView 
+			        android:id="@+id/tv_NewsFragment"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="@string/title_news"
+			        android:textSize="12sp"
+			        android:textColor="@color/color_text"
+			        />
+			</LinearLayout>
+			
+			<LinearLayout
+			   android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:layout_weight="1"
+			    >
+			    <ImageButton
+                android:id="@+id/bt_MyInfoFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                
+                android:background="#ffffffff"
+                android:src="@drawable/myinfo_deselected"
+                />
+			    
+			    <TextView 
+			        android:id="@+id/tv_MyInfoFragment"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="@string/title_myinfo"
+			        android:textSize="12sp"
+			        android:textColor="@color/color_text"
+			        />
+			</LinearLayout>
+            
+             
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

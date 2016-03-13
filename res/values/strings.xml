@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BB</string>
+    <string name="action_settings">Settings</string>
+    <string name="account_hint">帐号</string>
+	<string name="password_hint">密码</string>
+	<string name="nick_name">称号</string>
+	<string name="bithday">生日</string>
+	<string name="email">Email</string>
+	<string name="sign">签名</string>
+	<string name="btntext_login">登 录</string>
+	<string name="btntext_newuser">新用户</string>
+	<string name="btntext_exit">退  出</string>
+	<string name="title_connectors">联 系 人</string>
+	<string name="title_photos">电影,相片</string>
+	<string name="title_news">消 息</string>
+	<string name="title_myinfo">我</string>
+	
+	<string name="back_connectors">‹ 联系人</string>
+	<string name="back_detail">‹ 个人资料</string>
+	<string name="back_news">‹ 消 息</string>
+	<string name="back_photogroup">‹ 电影,相片</string>
+	<string name="left_allow">‹</string>
+	<string name="vip_group">在线客服</string>
+	<string name="connector_group">在线宝贝</string>
+	<string name="online_state">[在线]</string>
+	<string name="offline_state">[离线]</string>
+	<string name="busy_state">[忙碌]</string>
+	<string name="goway_state">[离开]</string>
+	<string name="photo_group">图片区</string>
+	<string name="film_group">电影区</string>
+	<string name="AV_group">AV导航</string>
+	<string name="AM">上午</string>
+	<string name="PM">下午</string>
+	<string name="connector_detail">个人资料</string>
+	<string name="connector_photo">相 片</string>
+	<string name="chating_hint">聊天文字</string>
+	<string name="chattext_send">发送</string>
+	<string name="photo_unit">张</string>
+	<string name="sub_title_start">第</string>
+	<string name="sub_title_end">区</string>
+	<string name="temp_image">Temp.jpg</string>
+	<string name="vip">VIP</string>
+	
+	<!-- all messages -->
+	<string name="msg_account">请输入 帐号 !</string>
+	<string name="msg_password">请输入 密码 !</string>
+	<string name="msg_login_error">帐号或密码 错误, 请重新输入</string>	
+	<string name="allow_symbol">☞</string>
+	<string name="msg_loading">加载中</string>
+	<string name="msg_downloading">下载中</string>
+	<string name="msg_vip_able">VIP会员专区</string>
+	<string name="msg_vip_chatable">只限VIP客户使用权限</string>
+	<string name="msg_server_stop">Now server stoped!</string>
+	<string name="msg_torrent_install">请安装迅雷看看播放器。取消安装吗？</string>
+	<string name="msg_update">当前版本过旧 是否更新最新版本?</string>
+	<string name="msg_notification">通知</string>
+	<string name="msg_yes">是</string>
+	<string name="msg_no">不</string>
+	
+	<!-- all special symbol -->
+	<string name="from_symbol_space">+</string>
+	<string name="to_symbol_space">%20</string>
+	<string name="from_symbol_equal">%3D</string>
+	<string name="to_symbol_equal">=</string>
+	
+	<!-- save account information -->
+	<string name="information_string">HBMSN</string>
+	<string name="account_id">hb_id</string>
+	<string name="account_password">hb_password</string>
+	<string name="account_icon">hb_icon</string>
+	
+</resources>
